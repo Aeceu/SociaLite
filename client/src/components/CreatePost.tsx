@@ -39,7 +39,7 @@ export default function CreatePost({ userID }: { userID: string }) {
   return (
     <div
       ref={divRef}
-      className="mt-4 w-full rounded-md border flex flex-col  gap-2 bg-white shadow-md p-2  "
+      className=" w-full rounded-md border flex flex-col  gap-2 bg-white shadow-md p-2  "
     >
       <div className="  flex items-center gap-2 p-1">
         <LucideFeather size="1rem" className="text-emerald-500" />

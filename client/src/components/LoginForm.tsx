@@ -39,7 +39,7 @@ export default function LoginForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className=" flex flex-col gap-2 justify-between p-4 bg-white rounded-r-md"
+      className=" flex flex-col gap-2 justify-between p-4 bg-white rounded-md"
     >
       <h1 className="text-slate-950 font-bold text-2xl text-center">
         Login your account

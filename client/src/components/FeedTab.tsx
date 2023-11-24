@@ -14,7 +14,7 @@ export default function FeedTab() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center p-2">
+      <div className="flex items-center justify-center">
         <LoadingAnim className="text-red-500" size="1.3rem" />
       </div>
     );
